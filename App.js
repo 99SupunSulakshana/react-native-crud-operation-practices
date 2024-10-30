@@ -21,7 +21,7 @@ const App = () => {
         fetch("https://crudapi.co.uk/api/v1/task",{
             method: "GET",
             headers: {
-                "Authorization": "Bearer tkeE18eKVFy0xotwKezWKSt9olgwwsNxp4_20KEMpc-plGGVpA",
+                "Authorization": "",
                 "Content-Type": "application/json",
                 "Accept":"application/json"
             },
@@ -49,7 +49,7 @@ const App = () => {
         fetch("https://crudapi.co.uk/api/v1/task", {
             method: "DELETE",
             headers: {
-                "Authorization": "Bearer tkeE18eKVFy0xotwKezWKSt9olgwwsNxp4_20KEMpc-plGGVpA",
+                "Authorization": "",
                 "Content-Type": "application/json",
                 "Accept":"application/json"
             },
@@ -95,7 +95,7 @@ const App = () => {
         fetch("https://crudapi.co.uk/api/v1/task", {
             method: "POST",
             headers: {
-                "Authorization": "Bearer tkeE18eKVFy0xotwKezWKSt9olgwwsNxp4_20KEMpc-plGGVpA",
+                "Authorization": "",
                 "Content-Type": "application/json",
                 "Accept": "application/json"
             },
@@ -127,7 +127,7 @@ const App = () => {
         fetch("https://crudapi.co.uk/api/v1/task", {
             method: "PUT",
             headers: {
-                "Authorization": "Bearer tkeE18eKVFy0xotwKezWKSt9olgwwsNxp4_20KEMpc-plGGVpA",
+                "Authorization": "",
                 "Content-Type": "application/json",
                 "Accept": "application/json"
             },
